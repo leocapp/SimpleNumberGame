@@ -48,8 +48,8 @@ class MainActivity : AppCompatActivity() {
             points--
             message = "Wrong!!"
         }
-        //Toast.makeText(this,"$message",Toast.LENGTH_SHORT).show()
-        Toast.makeText(this,"$message",Toast.LENGTH_SHORT).show()//LOOK AT THIS AGAIN AFTER CLASS IN THE SOURCE CODE AND FIX MESSAGES
+        
+        Toast.makeText(this,"$message",Toast.LENGTH_SHORT).show()
         score.text = "Score: $points"//makes the score change based on if statement
         initialize()//this will make new numbers show up after clicking less than
     }
